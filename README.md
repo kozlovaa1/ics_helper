@@ -41,5 +41,5 @@ $fileLink = CFile::GetPath($fileID); //Ссылка на сохранённый 
 ```
 ###Если необходимо сразу выдать готовый файл
 ```
-$fileID = $file->show();
+$file->show();
 ```
