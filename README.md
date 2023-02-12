@@ -39,7 +39,7 @@ $file = new ICS($start, $end, $name, $description, $location, $url);
 $fileID = $file->save(); //ID сохранённого файла в БД Битрикса
 $fileLink = CFile::GetPath($fileID); //Ссылка на сохранённый файл
 ```
-###Если необходимо сразу выдать готовый файл
+### Если необходимо сразу выдать готовый файл
 ```
 $file->show();
 ```
