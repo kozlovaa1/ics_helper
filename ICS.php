@@ -13,7 +13,6 @@ class ICS
 
     function save()
     {
-        //file_put_contents($this->name . ".ics", $this->data);
         return CFile::SaveFile(
             array(
                 "name" => $this->name . time().'.ics',
